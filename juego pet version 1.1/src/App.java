@@ -24,7 +24,7 @@ public class App {
 
 //en la siguiente version añadir un apartado de guardar partida 
             System.out.println("+                   1)nueva partida                      +");
-            System.out.println("+                   2)Como jugar                          +");
+            System.out.println("+                   2)Como jugar                         +");
             System.out.println("+                   3)salir                              +");
 
             opcion = teclado.nextInt();
@@ -509,7 +509,10 @@ public class App {
                     } 
 //fin de las mascotas//
                 case 2:
-                    System.out.println("archivos (en proceso).");
+                    System.out.println("como jugar:  ");
+                    System.out.println("escoge el nombre de tu mascota ");
+                    System.out.println("la especie que quieres cuidar  ");
+                    System.out.println("y las acciones que queres que haga ");
                     break;
 
                 case 3:
